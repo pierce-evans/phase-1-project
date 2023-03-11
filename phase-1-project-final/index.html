@@ -1,0 +1,24 @@
+<html>
+    <head >
+        <link rel="stylesheet" href="style.css">
+    <div class="title">
+        <p1>Welcome</p1>
+    </div>
+    </head>
+    <body onload="document.body.style.opacity='1'">
+        <style>
+            body {
+        opacity: 0;
+        transition: opacity 6s;
+    }
+           </style>
+            <div class ="buttonContainer" id = "buttonDiv">
+                <button id = "buttonId" onclick="getForecast()"> Get Forecast </button>
+                <div class="infoLabelDiv" id="infoLabel"></div>
+            </div>
+           <div class="forecastDiv" id="forecast">
+
+           </div>
+        <script src="index.js"></script>
+    </body>
+</html>
